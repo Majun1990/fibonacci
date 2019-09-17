@@ -4,8 +4,8 @@ module Fibonacci
         fib1 = 0
         fib2 = 1
         index.times do 
-            fibo = fib1 + fib 2
-            fib1 = fib 2
+            fibo = fib1 + fib2
+            fib1 = fib2
             fib2 = fibo
         end
         return fibo
